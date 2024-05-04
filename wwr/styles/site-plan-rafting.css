@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Freeman&display=swap'); */
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #276BAF;
+    --secondary-color: #cbddff;
+    --accent1-color: #284D77;
+    --accent2-color: #E1951B;
+
+    --heading-font: '_________', serif;
+    --paragraph-font: '_________', serif;
+
+    --nav-background-color: #276BAF;
+    --new-link-color: #1E3257;
+    --nav-hover-link-color: #284D77;
+    --nav-hover-background-color: #E1951B;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 23px;
+    background-color: var(--secondary-color);
+}
+
+p {
+    padding: 30px;
+}
+
+nav {
+    background-color: var(--accent2-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--new-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
