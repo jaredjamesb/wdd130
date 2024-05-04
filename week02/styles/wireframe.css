@@ -1,0 +1,16 @@
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+}
+
+nav a {
+    padding: 5%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.banner {
+    border-image-width: 200px;
+}
